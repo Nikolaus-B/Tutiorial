@@ -8,3 +8,12 @@
 .second-logo {
   color: #939393;
 }
+
+.header-logo:focus,
+.header-logo:hover {
+  color: aquamarine;
+}
+.second-logo:hover,
+.second-logo:focus {
+  color: aquamarine;
+}
