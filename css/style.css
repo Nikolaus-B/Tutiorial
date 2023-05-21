@@ -1,25 +1,77 @@
-.main-logo {
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1378px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 55px 0;
+}
+
+.header-logo {
   font-size: 36px;
   line-height: 54px;
   text-decoration: none;
 
   color: #000000;
-}
 
-.header-logo:focus,
-.header-logo:hover {
-  color: aquamarine;
+  margin-right: 236px;
 }
-
 .second-logo {
-  font-size: 36px;
-  line-height: 54px;
-  text-decoration: none;
-
   color: #939393;
 }
 
-.second-logo:hover,
-.second-logo:focus {
-  color: aquamarine;
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-link {
+  display: block;
+  padding: 20px 0;
+}
+
+.header-button {
+  margin-left: auto;
+  padding: 20px 56px;
+
+  width: 312px;
+
+  border: 2px solid #263238;
+  border-radius: 10px;
 }
